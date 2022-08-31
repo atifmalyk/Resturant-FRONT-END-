@@ -1,0 +1,1032 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Main Navigation Bar */
+.main-nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 60px;
+}
+.main-nav .logo h3 {
+  font-family: cursive;
+  color: grey;
+}
+.main-nav .menu h4 {
+  font-family: cursive;
+  color: grey;
+}
+/* First Page Dining On The Lack */
+
+/* DINING MAIN STARTED */
+
+.dining-main {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -70px;
+}
+.dining-text-main {
+  width: 700px;
+  height: 500px;
+  margin-left: -50px;
+  margin-top: 30px;
+}
+.dining-text-main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  transition: all 2s;
+  animation: text2 2s ease-in 0s 1 forwards;
+}
+@keyframes text2{
+  0%{
+  transform: translateX(1px);
+  }
+  100%{
+  
+    transform: translateY(-50px);
+  }
+}
+.dining-text-main:hover h1{
+  color: red;
+}
+.dining-text-main .bottom-text {
+  animation:text 2s ease-in 0s 1 forwards ;
+
+}
+@keyframes text {
+  0%{
+  transform: translateX(1px);
+  }
+  100%{
+    transform: translateY(-50px);
+  }
+
+}
+.dining-text-main .bottom-text p {
+  color: rgb(15, 14, 14);
+  text-align: justify;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.dining-text-main .dining-button button {
+  width: 180px;
+  height: 55px;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: text3 1.5s ease-in 0s 1 forwards;
+
+
+}
+@keyframes text3 {
+  0%{
+  transform: translateX(1px);
+  }
+  100%{
+    transform: translateY(-50px);
+  }
+
+}
+
+/* IMAGE SIDE STARTED */
+.image-main {
+  height: 450px;
+  position: relative;
+  margin-left: -80px;
+   margin-top: 30px;
+}
+.image-main .curly-bg {
+  background-color: red;
+  clip-path: polygon(19% 0, 16% 8%, 0 38%, 13% 43%, 8% 78%, 41% 86%, 69% 99%, 92% 86%, 88% 56%, 100% 41%, 93% 13%, 53% 0);
+
+
+  height: 470px;
+  width: 470px;
+  position: absolute;
+  top: 0;
+}
+.image-main .chef-image {
+  position: absolute;
+  height: 480px;
+  width: 480px;
+  top: 0;
+}
+.image-main .chef-image img {
+  height: 430px;
+  width: 430px;
+  border-radius: 50%;
+  animation: text4 3s ease-in 1s 1 forwards;
+
+  
+}
+@keyframes text4 {
+  0%{
+   
+    height: 250px;
+    width: 250px;
+  }
+  50%{
+  
+    height: 350px;
+    width: 350px;
+
+  }
+  100%{
+
+    height: 450px;
+    width: 450px;
+    transform: scale(1.0);
+    margin-top: -30px;
+  }
+}
+
+/* DINING ON THE LAKE PORTION ENDED */
+
+/* Menu Portion Started */
+
+.food-menu-main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.menu-image1,
+.menu-image2,
+.menu-image3,
+.menu-image4 {
+  height: 200px;
+  width: 250px;
+  transition: all 1s;
+}
+.menu-image1 img,
+.menu-image2 img,
+.menu-image3 img,
+.menu-image4 img {
+  height: 200px;
+  width: 250px;
+  transition: all 1s;
+}
+.menu-image1:hover img,
+.menu-image2:hover img,
+.menu-image3:hover img,
+.menu-image4:hover img {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px 3px rgb(0, 0, 0,0.7);
+  
+}
+
+/* MENU PORTION ENDED */
+/* BREAKFAST PORTION STARTED */
+.breakfast-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  position: relative;
+  background-color: rgb(230, 224, 224);
+
+  width: 100%;
+  margin-top: 30px;
+  z-index: -1;
+}
+.breakfast-under-main {
+  position: absolute;
+  margin-top: -260px;
+}
+/* .wrap-main{
+    margin-top: 360px;
+  } */
+.wrap-image {
+  position: absolute;
+  top: -59px; 
+
+}
+.wrap-image img {
+  height: 417px;
+  width: 608px;
+  margin-left: -23%;
+  
+}
+
+.red-circle-undermain {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -150px;
+  margin-left: 358px;
+  z-index: -1;
+}
+.breakfast-details-main {
+  height: 420px;
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: 26px;
+  right: 84px;
+
+
+}
+
+.breakfast-details-main .breakfast-paragraph {
+  color: gray;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+  margin-left: 30px;
+}
+.breakfast-details-main .breakfast-paragraph h2 {
+  color: black;
+  font-size: 41px;
+}
+.breakfast-button button {
+  width: 150px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  margin-left: 30px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.breakfast-button:hover button{
+  color: black;
+}
+
+/* BREAKFAST PORTION ENDED */
+
+/* MENU PORTION STAETED */
+
+.menu-background {
+  background-image: url(../images/7\ Burgers.jpg);
+  height: 160vh;
+  background-attachment: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.main-for-menu {
+  width: 80%;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 40px;
+  margin-left: -50px;
+}
+/* BACKGROUND BOXES */
+.fresh-f,
+.dinner-m,
+.classic-m,
+.chef-f,
+.pizza-f,
+.vegan-f {
+  height: 290px;
+  width: 350px;
+  background-color: rgb(26, 22, 22);
+  padding: 10px;
+  transition: all 1s;
+}
+.fresh-f:hover,
+.dinner-m:hover,
+.classic-m:hover,
+.chef-f:hover,
+.pizza-f:hover,
+.vegan-f:hover{
+  transform: translateY(-20px);
+  /* transform: scale(1.1); */
+  border-radius: 30px;
+}
+
+
+/* TEXT PROPERTIES  */
+.menu-grid p {
+  color: rgb(173, 173, 173);
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  justify-content: center;
+  font-size: 19px;
+}
+.menu-grid h2 {
+  color: white;
+  font-family: monospace;
+}
+.menu-grid a {
+  color: white;
+  font-size: 22px;
+  transition: all 1s;
+}
+.menu-grid a:hover{
+  color: blue;
+}
+/* TEXT PROPERTIES ENDED */
+/* HEADINGS MAIN */
+.food-top-main,
+.dinner-top-main,
+.classic-top-main,
+.chef-top-main,
+.pizza-top-main,
+.vegan-top-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-left: -90px;
+}
+/* RED BACKGROUND */
+.food-number,
+.dinner-number,
+.classic-number,
+.chef-number,
+.pizza-number,
+.vegan-number {
+  height: 70px;
+  width: 70px;
+  background-color: red;
+  border-radius: 50%;
+}
+/* .food-name,.dinner-name,.classic-name,.chef-name,.pizza-name,.vegan-name{
+
+} */
+
+/* FOOD HEADINGS */
+.num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6 {
+  margin-left: 14px;
+  margin-top: -9px;
+  font-family: Bradley Hand, cursive;
+  font-style: italic;
+  font-weight: lighter;
+  color: white;
+}
+/* FOOD PARAGRAPH PROPERTIES */
+.food-detail,
+.dinner-detail,
+.classic-detail,
+.chef-detail,
+.pizza-detail,
+.vegan-detail {
+  width: 90%;
+  margin-left: 10px;
+}
+.food-link,
+.dinner-link,
+.classic-link,
+.chef-link,
+.pizza-link,
+.vegan-link {
+  margin-left: 10px;
+}
+.bottom-text {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 680px;
+}
+
+/* MENU SECTION ENDED  */
+/* DELIVERY SECTION STARTED */
+.del-service-main {
+  background-color: rgb(230, 224, 224);
+  height: 160vh;
+}
+.right-circle-main {
+  display: flex;
+  justify-content: right;
+  width: 94%;
+}
+.right-circle {
+  margin-top: 70px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(26, 20, 20, 0.1);
+  background-color: red;
+  border-radius: 50%;
+  animation: circle 3s ease-in 1s infinite forwards alternate;
+}
+@keyframes circle {
+0%{
+   margin-left: -100px;
+
+}
+50%{
+  background-color: blue;
+ 
+}
+75%{
+  background-color: green;
+
+}
+100%{
+
+  background-color: red;
+
+}
+  
+}
+.delivery-content {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+}
+.delivery-box {
+  height: 400px;
+  width: 95%;
+  background-color: red;
+  margin-top: 200px;
+  position: relative;
+}
+.deliver-img {
+  position: absolute;
+  top: -40%;
+  left: 10%;
+  transition: all 2s;
+}
+.deliver-img:hover img{
+  margin-left: -200px;
+
+}
+.deliver-img img {
+  height: 480px;
+  width: 800px;
+  transition: all 2s;
+}
+
+.delivery-services {
+  height: 330px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  top: 40%;
+  text-align: justify;
+  align-items: center;
+  padding: 20px;
+  transition: all 1s;
+}
+.delivery-services:hover{
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.delivery-text h2 {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 25px;
+}
+.delivery-text p {
+  color: rgb(43, 40, 40);
+  font-family: cursive;
+  word-spacing: 0.3px;
+  font-size: 18px;
+  text-align: justify;
+  width: 95%;
+}
+.delivery-button button {
+  width: 140px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* DELIVERY-SERVICES END */
+
+/* FAST-FOOD STARTED */
+.fast-food-bg {
+  background-image: url(../images/9\ pizza.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.fast-food-content {
+  margin-left: 30px;
+  width: 50%;
+}
+
+.fast-food-text {
+}
+.fast-food-text h1 {
+  color: white;
+  font-family: monospace;
+  font-size: 60px;
+  margin-top: -20px;
+}
+.fast-food-text h4 {
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+}
+.fast-food-text p {
+  color: gray;
+  margin-top: -10px;
+}
+.fast-food-button button {
+  width: 150px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 1s;
+}
+.fast-food-button:hover button{
+  color: black;
+  background-color: rgb(194, 15, 15);
+  height: 50px;
+  width: 155px;
+
+}
+/* FAST-FOOD-PART ENDED */
+
+/* BURGER-MENU STARTED */
+
+.burger-menu-main {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.burger-heading {
+  font-family: monospace;
+  font-size: 25px;
+}
+.burger-details {
+  display: flex;
+  justify-content: center;
+}
+.burger-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  text-align: center;
+  margin-top: -27px;
+  color: rgb(48, 45, 45);
+}
+
+/* BURGER-MENU ENDED */
+
+/* BURGER GALLERY STARTED */
+.burger-gallery-grid {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin-left: 50px;
+  gap: 10px;
+  width: 80%;
+}
+.burger-menu1,
+.burger-menu2,
+.burger-menu3,
+.burger-menu4,
+.burger-menu5,
+.burger-menu6 {
+  height: 220px;
+  width: 620;
+}
+.double-burger-img {
+  height: 250px;
+  position: relative;
+}
+.double-burger-img img {
+  height: 220px;
+  width: 620px;
+}
+.pricing-main {
+  height: 220px;
+  width: 50%;
+  background-color: rgb(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.pricing-main:hover{
+  transform: translateX(150px);
+ 
+
+}
+.pricing-heading {
+}
+.pricing-heading h2 {
+  color: white;
+  font-family: monospace;
+  font-size: 23px;
+}
+.pricing-heading h4 {
+  color: red;
+  ont-family: monospace;
+  margin-left: 70px;
+}
+.price-button {
+  margin-left: 25px;
+}
+
+.price-button button {
+  width: 120px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 1s;
+  
+}
+.price-button button:hover{
+  height: 40px;
+  width: 125px;
+  color: black;
+  font-size: 14px;
+}
+.brand-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-is {
+  color: black;
+}
+/* BURGER GALLERY ENDED */
+.pizza-bg{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/16\ shawarma.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.main-carousel{
+  
+    width: 400px;
+    transition: all 2s;
+   
+}
+.main-carousel:hover{
+transform: translateX(500px);
+height: 480px;
+width: 400px;
+}
+.carousel-cell{
+
+}
+.content-1{
+height: 450px;
+width: 400px;
+background-color: white;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 40px;
+}
+.pizza-detail-main{
+width: 60%;
+margin-top: 50px;
+font-size: 18px;
+
+}
+.pizza-logo{
+
+}
+.pizza-heading{
+
+}
+.pizza-detail{
+
+}
+.content-2{
+    height: 450px;
+    width: 400px;
+    background-color:rgb(255, 0, 0,0.3);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    }
+    .content-3{
+        height: 450px;
+        width: 400px;
+        background-color:rgba(12, 173, 52, 0.3);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+        }
+    
+    .pizza-button {
+        width: 120px;
+        height: 35px;
+        background-color: white;
+        border: 2px solid red;
+        border-radius: 30px;
+        margin-left: 55px;
+    }
+.pizza-button button{
+    width: 120px;
+    height: 35px;
+    color: black;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    transition: all 1s;
+
+}
+.pizza-button button:hover{
+     height: 36px;
+     width: 125px;
+     background-color: red;
+}
+/* PIZZA AND ROLL SECTION ENDED */
+/* DELIVERY-BIKE-SECTION STARTED */
+
+.delivery-bike-main{
+height: 100vh;
+width: 80%;
+margin-left: auto;
+margin-top: 50px;
+position: relative;
+}
+
+.delivery-bike-img img{
+height: 407px;
+width: 400px;
+border-radius: 50%;
+position: absolute;
+z-index: 1;
+left: -3%;
+top: -3%;
+  animation: game 2s linear 1s alternate forwards;
+
+
+}
+@keyframes game {
+  
+  from{
+    left: -25%;
+  }
+  to{
+    left: -3%;
+  }
+}
+.delivery-bike-services{
+
+    height: 370px;
+    width: 500px;
+    background-color: rgb(224, 211, 211);
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 9%;
+    left: 28%;
+    transition: all 1s;
+         animation: game1 2s linear 1s alternate forwards; 
+
+  
+}
+@keyframes game1 {
+  from{
+    top: 0%;
+    left: 10%;
+  }
+  to{
+    top: 9%;
+    left: 28;
+  }
+  
+}
+.delivery-bike-services:hover{
+  z-index: 1;
+  opacity: 0.6;
+  height: 400px;
+  transform: translateY(-40px);
+
+
+}
+.delivery-bike-right-circle{
+height: 180px;
+width: 180px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+top: -4%;
+left: 70%;
+z-index: -1;
+}
+.delivery-bike-burger img{
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid white;
+  top: 47%;
+  z-index: 1;
+  left: -11%;
+}
+.delivery-bike-bottom-circle{
+  height: 180px;
+width: 180px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+top:75%;
+left:7%;
+
+}
+/* BIKE DELIVERY PORTION ENDED */
+
+/* FOOTER SECTION STARTED */
+
+.footer-main{
+background-color: black;
+height: 650px;
+width: 100%;
+margin-top: 70px;
+position: relative;
+
+}
+.footer-under-main{
+  height: 650px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+
+ 
+}
+.footer-left{
+
+}
+.footer-burger{
+
+}
+.footer-burger img{
+  height: 550px;
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+  top: 9%;
+    left: 3%;
+}
+.footer-box{
+height:650px ;
+width: 150px;
+background-color: red;
+position: absolute;
+left: 33%;
+}
+.footer-right{
+  padding-top: 60px;
+  margin-top: 10px;
+
+
+}
+.subscribe-heading{
+  text-align: center;
+ 
+}
+.subscribe-heading h1{
+  color: white;
+  font-family: monospace;
+
+}
+.subscribe-heading p{
+  color: rgb(204, 196, 196);
+  font-size: 16px;
+}
+.footer-mail{
+display: flex;
+gap: 10px;
+width: 100%;
+}
+.mail-input{
+color: gray;
+margin-left: 90px;
+
+}
+input[type="email"]{
+  border: none;
+  background: none;
+  border-bottom: 3px solid rgb(90, 89, 89);
+  width: 290px;
+  height: 45px;
+  margin-left: 70px;
+  color: white;
+}
+
+.mail-button button{
+  height: 50px;
+  width: 120px;
+  background-color: red;
+  color: white;
+  border: none;
+
+
+}
+.contact-us{
+display: flex;
+gap: 40px;
+margin-left: 30px;
+margin-top: 40px;
+
+}
+.address {
+height: 300px;
+width: 300px;
+margin-top: 50px;
+
+}
+.address h2{
+  font-size: 29px;
+  margin-left: 50px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 8px;
+
+}
+
+.address p{
+  color: rgb(204, 196, 196 );
+  text-align: right;
+  margin-right: 50px;
+  font-size: 15px;
+  margin-left: 40px;
+  padding-left: 20px;
+}
+.social-media{
+height: 400px;
+width: 400px;
+margin-top: 50px;
+}
+.media-heading{
+  font-size: 20px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: 7px;
+}
+.media-heading h2{
+  margin-left: 50px;
+}
+.links-icons-main{
+display: flex;
+gap: 15px;
+margin-left: 50px;
+
+}
+.links-icons-main .icon img{
+height: 35px;
+width: 35px;
+}
+.media-end{
+color: rgb(90, 89, 89);
+margin-left: 130px;
+font-size: 19px;
+}
+.bottom{
+  height: 150px;
+  width: 100%;
+  background-color: rgb(31, 23, 23);
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+
+}
+.bottom-text{
+
+  text-align: center;
+}
